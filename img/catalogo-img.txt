@@ -1,0 +1,9 @@
+para cambiar las fotos del catalogo (a futuro) se insertan dentro de:
+
+assets/img/portfolio
+
+se deben de asignar un nombre a cada imagen JPG y reemplazarlos en el div de portfolio (o catálogo)
+
+el nombre que tienen las direcciones actualmente es:
+
+assets/img/portfolio/1
