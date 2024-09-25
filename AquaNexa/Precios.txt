@@ -1,0 +1,24 @@
+Basico = 51.800 + 22.000
+
+Bomba = 71.800
+
+Ultrasonido = 54.800
+
+Temperatura = 54.300
+
+Medidor de PH = 60.800
+
+Ph y Bomba = 80.800
+
+Ultrasonido Y Bomba = 74.800
+
+Bomba y Temperatura = 74.300
+
+Ph y Temperatura = 63.300
+
+Ph, Temperatura y Ultrasonido = 66.300
+
+Ph, Temperatura y Bomba = 83.300
+
+Ph, Bomba y Ultrasonido = 83.800
+

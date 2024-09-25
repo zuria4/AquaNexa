@@ -1,0 +1,133 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#producto-contenedor {
+    margin: 20px auto;
+    margin-top: 100px;
+    width: 80%;
+}
+
+#nombre-producto {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el contenedor que agrupa la imagen y la información */
+.producto-detalle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.imagen-producto {
+    flex: 1;
+    text-align: center;
+}
+
+.imagen-producto img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;  /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen-producto img:hover {
+    transform: scale(1.05);  /* Pequeña animación al pasar el mouse */
+}
+
+.informacion-compra {
+    flex: 1;
+    padding-left: 20px;
+    border-radius: 15px;  /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    background-color: #dbdbdb;  /* Fondo blanco para resaltar */
+    padding: 20px;  /* Espaciado interno */
+    margin-top: 20px;  /* Separación del contenedor superior */
+}
+
+.informacion-compra p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.informacion-compra button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Tabla de especificaciones */
+#tabla-especificaciones {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+#tabla-especificaciones th, #tabla-especificaciones td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#tabla-especificaciones th {
+    background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#copyright {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .producto-detalle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tabla-especificaciones {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+.producto-detalle {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .producto-detalle {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+     <!-- Favicon-->
+     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+     <!-- Font Awesome icons (free version)-->
+     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+     <!-- Google fonts-->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+     <!-- Core theme CSS (includes Bootstrap)-->
+     <link href="../css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="margin-bottom: 30px;">
+        <div class="container">
+            <a class="navbar-brand" href="../inicio.php#page-top"><img src="../assets/img/logo-header.png" alt="..." /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="../inicio.php#services">Servicio y dudas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../inicio.php#portfolio">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../inicio.php#about">A cerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../inicio.php#team">Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../inicio.php#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="producto-contenedor">
+        <h2 id="nombre-producto">AquaNexa Bomba y Temperatura</h2>
+        <div class="producto-detalle">
+            <div class="imagen-producto">
+                <img src="../assets/img/portfolio/temp_bomb.jpeg" alt="Producto 1" id="imagen-producto">
+            </div>
+            <div class="informacion-compra">
+                <p>Precio Unitario: 96.300</p>
+                <label for="cantidad1">Cantidad: </label>
+                <input type="number" id="cantidad1" min="1" value="1">
+                <button onclick="comprarProducto(8, document.getElementById('cantidad1').value, 1)">Comprar</button>
+            </div>
+        </div>
+
+        <table id="tabla-especificaciones">
+            <tr>
+                <th>Especificación</th>
+                <th>Detalle</th>
+            </tr>
+            <tr>
+                <td>Peso</td>
+                <td>500g</td>
+            </tr>
+            <tr>
+                <td>Alto</td>
+                <td>15cm</td>
+            </tr>
+            <tr>
+                <td>Ancho</td>
+                <td>15cm</td>
+            </tr>
+            <tr>
+                <td>Sensor de Humedad</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>Electroválvula</td>
+                <td>Si</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Mensaje de compra -->
+    <div id="mensaje" style="display:none;"></div>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; AquaNexa 2023-2024</div>
+                <div id= "copyright" class="col-lg-4 my-3 my-lg-0" style="color: white;">
+                
+
+                    <script>
+                        function abrirVentanaEmergente() {
+                            window.open('../terminos-privacidad.html', 'Términos de Privacidad', 'width=600,height=400,scrollbars=yes,resizable=yes');
+                        }
+                    </script>
+                    <script>
+                        function abrirVentanaEmergente2() {
+                            window.open('../terminos-uso.html', 'Términos de Uso', 'width=600,height=400,scrollbars=yes,resizable=yes');
+                        }
+                    </script>
+                    
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="javascript:void(0);" onclick="abrirVentanaEmergente()">Privacy Policy</a>
+                    <a class="link-dark text-decoration-none" href="javascript:void(0);" onclick="abrirVentanaEmergente2()">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="carrito.js"></script>
+</body>
+</html>
