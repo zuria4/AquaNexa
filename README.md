@@ -24,7 +24,7 @@
 El dispositivo físico fue diseñado para funcionar de manera **autónoma y autoalimentada**, incorporando paneles solares y un gabinete propio pensado para anclarse directamente en la tierra junto a la planta.
 
 <p align="center">
-  <img src="assets/prototipo.jpg" alt="Prototipo físico de AquaNexa" width="350">
+  <img src="assets/prototipo.jpeg" alt="Prototipo físico de AquaNexa" width="350">
 </p>
 
 ### ⚙️ Funcionalidades
@@ -37,7 +37,7 @@ El dispositivo físico fue diseñado para funcionar de manera **autónoma y auto
 - Gabinete diseñado y modelado a medida (bocetado y luego modelado en 3D) para resistir intemperie y autoalimentarse con energía solar.
 
 <p align="center">
-  <img src="assets/app-screens.png" alt="Pantallas de la app AquaNexa" width="500">
+  <img src="assets/app-screens.jpeg" alt="Pantallas de la app AquaNexa" width="500">
 </p>
 
 ### 🛠️ Tecnologías utilizadas
@@ -77,7 +77,7 @@ Proyecto grupal desarrollado por 3 integrantes, con **Lucas Britos** como líder
 - **Brandon Torres**
 
 <p align="center">
-  <img src="assets/equipo.jpg" alt="Presentación del proyecto" width="350">
+  <img src="assets/equipo.jpeg" alt="Presentación del proyecto" width="350">
 </p>
 
 ---
