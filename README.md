@@ -36,9 +36,6 @@ El dispositivo físico fue diseñado para funcionar de manera **autónoma y auto
 - Distintos prototipos de hardware probados con sensores adicionales (pH del suelo, temperatura) y una bomba para generar presión de agua.
 - Gabinete diseñado y modelado a medida (bocetado y luego modelado en 3D) para resistir intemperie y autoalimentarse con energía solar.
 
-<p align="center">
-  <img src="assets/app-screens.jpeg" alt="Pantallas de la app AquaNexa" width="500">
-</p>
 
 ### 🛠️ Tecnologías utilizadas
 
